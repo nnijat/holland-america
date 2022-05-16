@@ -39,6 +39,5 @@ describe('homepage test', function () {
         searchpage.clickViewResultButton();
         searchpage.clickViewItineraryByTripTitle(tripTitle, searchpage.viewItineraryList)
         common.validateMessageText(tripdetailpage.tripPrice, price)
-        browser.sleep(5000)
     });
 });
